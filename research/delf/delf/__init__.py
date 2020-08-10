@@ -18,11 +18,11 @@ from __future__ import division
 from __future__ import print_function
 
 # pylint: disable=unused-import
-from delf.protos import aggregation_config_pb2
-from delf.protos import box_pb2
-from delf.protos import datum_pb2
-from delf.protos import delf_config_pb2
-from delf.protos import feature_pb2
+from delf.protos import aggregation_config
+from delf.protos import box
+from delf.protos import datum
+from delf.protos import delf_config
+from delf.protos import feature
 from delf.python import box_io
 from delf.python import datum_io
 from delf.python import feature_aggregation_extractor
